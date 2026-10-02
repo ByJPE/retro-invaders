@@ -23,20 +23,9 @@ Jeu de type Space Invaders en HTML/CSS/JavaScript pur, sans dépendance, jouable
 
 Ouvrir `index.html` dans un navigateur. Aucun build n'est nécessaire.
 
-## Publier sur GitHub Pages
+## Sur GitHub Pages
 
-1. Créer un dépôt vide sur GitHub (ex. `retro-invaders`).
-2. Dans ce dossier :
-   ```bash
-   git init
-   git add .
-   git commit -m "Retro Invaders"
-   git branch -M main
-   git remote add origin https://github.com/<votre-compte>/retro-invaders.git
-   git push -u origin main
-   ```
-3. Sur GitHub : **Settings → Pages → Deploy from a branch → `main` / `(root)`**.
-4. Le jeu sera accessible à `https://<votre-compte>.github.io/retro-invaders/`.
+Le jeu sera accessible à ` https://byjpe.github.io/retro-invaders/ `.
 
 Sur iPhone, Safari ne propose pas l'API plein écran : utiliser « Ajouter à l'écran d'accueil » pour jouer sans barre d'adresse.
 
