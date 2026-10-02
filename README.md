@@ -25,7 +25,7 @@ Ouvrir `index.html` dans un navigateur. Aucun build n'est nécessaire.
 
 ## Sur GitHub Pages
 
-Le jeu sera accessible à ` https://byjpe.github.io/retro-invaders/ `.
+Le jeu sera accessible à https://byjpe.github.io/retro-invaders/.
 
 Sur iPhone, Safari ne propose pas l'API plein écran : utiliser « Ajouter à l'écran d'accueil » pour jouer sans barre d'adresse.
 
