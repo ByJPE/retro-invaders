@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#000000">
+<title>Retro Invaders</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="m1">
+<div id="screen">
+  <canvas id="cv"></canvas>
+  <div id="menu">
+    <h1>RETRO<br>INVADERS</h1>
+    <h2>Mode</h2>
+    <div class="g" data-k="mode">
+      <button data-v="1">1 · 70s bleu</button>
+      <button data-v="2">2 · 80s néon</button>
+    </div>
+    <h2>Difficulté</h2>
+    <div class="g" data-k="diff">
+      <button data-v="0">Facile</button>
+      <button data-v="1">Normal</button>
+      <button data-v="2">Difficile</button>
+    </div>
+    <h2>Affichage</h2>
+    <div class="g" data-k="disp">
+      <button data-v="fit">Plein écran</button>
+      <button data-v="real">Taille réelle</button>
+    </div>
+    <button id="go">▶ Jouer</button>
+    <p>PC : ← → déplacer, ↑ ou Espace tirer, P pause, Échap menu.<br>Mobile : glisser ← → pour bouger, glisser ↑ ou toucher pour tirer.</p>
+  </div>
+  <div class="scan"></div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
